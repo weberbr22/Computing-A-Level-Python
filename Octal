@@ -1,0 +1,23 @@
+# Denary to Octal Conversion
+# Octal is base 8, can do repeated division method eg 74
+
+dec = int(input('Enter Number '))
+count = 0
+list = []
+
+while True:
+    out = dec / 74
+    if out != 0:
+        list.append(dec % 74)
+    else:
+        output = "".join(list)
+        break
+
+print(output)
+
+if dec % 74 == 0:
+    
+
+def Check(p):
+    return p % 74
+    
