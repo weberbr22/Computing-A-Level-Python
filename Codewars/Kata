@@ -1,0 +1,10 @@
+def filter_list(l):
+    output = []
+    for x in l:
+        try:
+            x / 12
+            output.append(x)
+        except:
+            pass
+            
+    return output

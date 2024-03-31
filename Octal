@@ -13,11 +13,5 @@ while True:
         output = "".join(list)
         break
 
-print(output)
-
-if dec % 74 == 0:
-    
-
-def Check(p):
-    return p % 74
+print(output)    
     
