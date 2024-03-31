@@ -1,4 +1,4 @@
-def filter_list(l):
+def filter_list(l): # Can use try except to filter list
     output = []
     for x in l:
         try:
@@ -8,3 +8,5 @@ def filter_list(l):
             pass
             
     return output
+
+def 
