@@ -29,8 +29,10 @@ def digital_root(n):
     # For the rest of the functionality, need to use the sum function on the list and then recursively check if the value is below 10
     
 def find_nb(m):
-    count = 1
+    count = 0
     while m != 0:
-        m = m - count**3
+        m = m - count*count*count
         count += 1
-    return count
+    return count - 1
+
+print(find_nb(441))
